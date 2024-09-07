@@ -1,0 +1,47 @@
+@import url("css/map/base.css");
+@import url("css/map/header.css");
+@import url("css/map/footer.css");
+@import url("css/map/aside.css");
+@import url("css/map/articles.css");
+@import url("css/map/banner.css");
+@import url("css/map/error-box.css");
+
+.navbar{
+  font-size: 500px;
+}
+.navbar{
+  width: 200px;
+  height: 150px;
+}
+.navbar {
+  padding: 20px; /* Increase padding to 20 pixels */
+  margin: 10px; /* Increase margin to 10 pixels */
+}
+
+main {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+}
+
+main .main-container {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% 25%;
+    column-gap: 5%;
+}
+
+@media screen and (max-width: 1120px) {
+    main .main-container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main .main-container {
+        grid-template-columns: 100%;
+    }
+}

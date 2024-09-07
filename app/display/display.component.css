@@ -1,0 +1,47 @@
+/* display.component.css */
+
+/* Add the CSS styles here */
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/disp.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: lightcoral;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+p {
+  color: lightcoral;
+}
